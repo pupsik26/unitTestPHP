@@ -1,0 +1,22 @@
+{
+    "name": "vadim/php-unit-test",
+    "autoload": {
+        "psr-4": {
+            "Vadim\\PhpUnitTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pupsik26",
+            "email": "vadim.kazakov26@yandex.ru"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.4.3"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
